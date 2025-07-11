@@ -24,17 +24,10 @@ export const About = () => {
         >
           <h2 className="text-4xl font-bold text-white mb-12">About Me</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
-I am a dedicated Backend Developer with two years of professional experience at MindCrew Technologies, specializing in crafting high-performance web applications. My technical expertise centers on Node.js, Express.js, and MongoDB, where I've consistently demonstrated the ability to develop scalable and efficient software solutions.
-
-Throughout my career, I have:
-- Enhanced system performance by 30% through strategic optimization techniques
-- Leveraged AI technologies to improve team productivity by 40%
-- Developed robust backend infrastructure that supports complex web applications
-- Collaborated effectively within cross-functional teams to deliver innovative technological solutions
-
-My passion lies in exploring cutting-edge technologies and transforming complex challenges into elegant, efficient code. I thrive on continuous learning and am always eager to adopt new technologies that can drive technological innovation and business growth.
-
-As a technology enthusiast, I'm committed to creating impactful software that not only meets but exceeds performance expectations.
+          I'm a passionate Full Stack Developer with 2+ years of experience building scalable web applications using Java Spring Boot, Node.js, javascript, Typescript and React.js. At Mindcrew Technologies, I've architected 60+ RESTful APIs and improved system performance by 40% while implementing robust security measures with JWT and OAuth2.
+My expertise spans microservices architecture, database optimization with MongoDB and MySQL, and modern frontend development. I've successfully reduced deployment time by 50% through CI/CD pipeline implementation and containerization with Docker. Additionally, I've ventured into AI development, building intelligent chatbots with OpenAI integration and leveraging LLM models for real-world applications like my Renvantion.AI project. My prompt engineering skills enable me to create sophisticated AI-powered solutions that enhance user experiences.
+I thrive in collaborative Agile environments, mentoring junior developers and delivering innovative solutions that drive real business impact.
+When I'm not coding, you'll find me solving algorithmic challenges on LeetCode and exploring emerging technologies in web development.
           </p>
         </motion.div>
       </div>

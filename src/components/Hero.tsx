@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 
 const titles = [
   "Software Engineer",
-  "Backend Developer",
+  "Fullstack Developer",
   "Problem Solver",
   "Tech Enthusiast",
 ];

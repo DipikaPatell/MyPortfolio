@@ -1,47 +1,53 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-type ProjectCategory = 'Nodejs' | 'Webflow';
+type ProjectCategory = 'Fullstack' | 'Webflow';
 
 const projects = {
-  Nodejs: [
+  Fullstack: [
     {
       title: "SkillXYZ",
       description: "Professional Networking Platform Contributed to the development of SkillXYZ",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      link: "https://skillxyz.com/" // Add your project link
+      image: "https://skillxyz.com/website_hero_bot.svg",
+      link: "https://skillxyz.com/"
     },
     {
       title: "RECOVERA",
       description: "RECOVERA, an innovative app for therapists to track patient recovery",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-      link: "https://play.google.com/store/apps/details?id=com.mindcrew.therapyclinicapp&pcampaignid=web_share&pli=1" // Add your project link
+      link: "https://play.google.com/store/apps/details?id=com.mindcrew.therapyclinicapp&pcampaignid=web_share&pli=1"
     },
     {
       title: "Accessibility Research Platform",
       description: "Accessibility Research Platform, connecting researchers with participants for accessibility studies",
-      image: "https://play-lh.googleusercontent.com/Pidwbce_FuBdwHvsNA0TfxpjfHalf-DQql8Az4mobwTwR5x22WuHv6LNSEbJqlKKU4I=w240-h480-rw",
-      link: "https://play.google.com/store/apps/details?id=com.accessibilityresearch&pcampaignid=web_share" // Add your project link
+      image: "https://www.ux-republic.com/wp-content/uploads/2023/03/image2-16.png",
+      link: "https://www.accessibilityresearch.com/"
     },
     {
       title: "WhatsApp Lease Agreement Chatbot",
       description: "WhatsApp bot for rental agreements, allowing landlords to send agreement forms directly to tenants via WhatsApp.",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-   // Add your project link
+      link: "" // Add your project link
+    },
+    {
+      title: "Revnation.ai",
+      description: "RevNation.ai – Your AI-Powered Corvette Expert. RevNation.ai is an intelligent AI assistant built to answer all Corvette-related queries—from performance upgrades and maintenance tips to feature insights. Powered by Grok API and fine-tuned with real user queries stored in Pinecone, our assistant also recommends relevant products, YouTube videos, review sites, and forum discussions to enhance your Corvette experience.",
+      image: "https://trackobit.com/wp-content/uploads/Artificial-Intelligence-The-Future-of-Vehicles.jpeg",
+      link: "https://revnation.ai/"
     }
   ],
   Webflow: [
     {
       title: "Flexecharge",
       description: "Developed a comprehensive EV charging platform using Webflow, providing a powerful foundation for managing electric vehicle charging.",
-      image: "https://cdn.prod.website-files.com/65e72f3b6a6f3fc81c1aed32/674845565912713328571880_6720976fac0991a852601f20_image-203.png",
-      link: "https://www.flexecharge.com/" // Add your project link
+      image: "https://cdn.prod.website-files.com/65e72f3b6a6f3fc81c1aed32/67cfcc39b82d265a604d319a_FEC_SYSTEM-p-800.png",
+      link: "https://www.flexecharge.com/"
     }
   ]
 } as Record<ProjectCategory, Array<{ title: string; description: string; image: string; link: string; }>>;
 
 export const Projects = () => {
-  const [category, setCategory] = useState<ProjectCategory>('Nodejs');
+  const [category, setCategory] = useState<ProjectCategory>('Fullstack');
 
   return (
     <section id="projects" className="py-20 bg-gray-800">

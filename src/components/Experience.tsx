@@ -4,7 +4,7 @@ import { Code } from 'lucide-react';
 
 const experiences = [
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     company: "Mindcrew Technologies",
     date: "July 2023 - Present",
     icon: Code,
