@@ -53,6 +53,10 @@ const tools = [
  {
   name :"API",
   icon:"https://chisellabs.com/glossary/wp-content/uploads/2021/06/What-is-an-API.png"
+ },
+ {
+  name :"React",
+  icon:"https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png"
  }
 
 
